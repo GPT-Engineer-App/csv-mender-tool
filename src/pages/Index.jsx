@@ -55,8 +55,8 @@ const Index = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">CSV Editor</h1>
+    <div className="container mx-auto p-4 bg-red-500">
+      <h1 className="text-2xl font-bold mb-4 text-white">CSV Editor</h1>
       
       <div {...getRootProps()} className="border-2 border-dashed border-gray-300 p-4 mb-4 text-center cursor-pointer">
         <input {...getInputProps()} />
